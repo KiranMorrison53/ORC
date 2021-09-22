@@ -5,8 +5,14 @@ html {
 :root {
     --ticker-width: calc(15 * 18rem);
     --highlight: #85e0ab;
+    --titleFont:'Roboto Mono', monospace;
+    --bodyFont: 'Roboto Mono', monospace;
+    --titleWeight: 700;
+    --titleStyle: italic;
+    /*
     --titleFont: 'Libre Baskerville', serif;
     --bodyFont: 'Montserrat', sans-serif;
+    */
     font-size: 20px;
 }
 
@@ -19,6 +25,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--titleFont);
+    font-weight: var(--titleWeight);
+    font-style: var(--titleStyle);
 }
 
 h2:hover, h3:hover {
@@ -72,8 +80,10 @@ h2:hover, h3:hover {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1rem;
     font-family: var(--titleFont);
+    font-weight: var(--titleWeight);
+    font-style: var(--titleStyle);
 }
   
 .topnav a:hover {
@@ -325,6 +335,7 @@ ul.rb li .timestamp {
   position: relative;
   font-size: 1rem;
   font-family: var(--titleFont);
+  font-style: var(--titleStyle);
 }
 
 .item-title {
@@ -379,7 +390,7 @@ ul.rb li .timestamp {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-style: italic;
+    font-style: var(--titleStyle);
 }
 
 .card-stats {
