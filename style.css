@@ -5,18 +5,20 @@ html {
 :root {
     --ticker-width: calc(15 * 18rem);
     --highlight: #85e0ab;
+    --titleFont: 'Libre Baskerville', serif;
+    --bodyFont: 'Montserrat', sans-serif;
     font-size: 20px;
 }
 
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--bodyFont);
     background-color: #000;
     color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: var(--titleFont);
 }
 
 h2:hover, h3:hover {
@@ -71,7 +73,7 @@ h2:hover, h3:hover {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: var(--titleFont);
 }
   
 .topnav a:hover {
@@ -118,7 +120,7 @@ h2:hover, h3:hover {
     padding:40px 0;
     background-color:#000;
     color:#fff;
-    font-family: 'Libre Baskerville', serif;
+    font-family: var(--titleFont);
 }
   
 .footer-simple ul {
@@ -273,7 +275,7 @@ ion-icon {
 }
 
 .rb-container {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--bodyFont);
   width: 90%;
   margin: auto;
   display: block;
@@ -322,7 +324,7 @@ ul.rb li .timestamp {
   color: var(--highlight);
   position: relative;
   font-size: 1rem;
-  font-family: 'Libre Baskerville', serif;
+  font-family: var(--titleFont);
 }
 
 .item-title {
@@ -334,7 +336,7 @@ ul.rb li .timestamp {
     border-radius: 8px;
     border: 0;
     color: #000;
-    font-family: 'Libre Baskerville', serif;
+    font-family: var(--titleFont);
     font-size: 1rem;
     margin: auto auto;
     padding: 15px;
@@ -357,7 +359,7 @@ ul.rb li .timestamp {
     border-radius: 15px;
     background: #000;
     /*box-shadow: 5px 5px 15px var(--highlight);*/
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--bodyFont);
     text-align: center;
 
     transition: 0.5s ease;
