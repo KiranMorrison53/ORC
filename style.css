@@ -9,10 +9,6 @@ html {
     --bodyFont: 'Roboto Mono', monospace;
     --titleWeight: 700;
     --titleStyle: italic;
-    /*
-    --titleFont: 'Libre Baskerville', serif;
-    --bodyFont: 'Montserrat', sans-serif;
-    */
     font-size: 20px;
 }
 
@@ -46,28 +42,6 @@ h2:hover, h3:hover {
     width: 100%;
     margin-top: 20px;
 }
-
-/*
-#BAC {
-    background-color: #85e0ab;
-}
-
-#roadmap {
-    background-color: #49b57b;
-} 
-
-#timeline {
-    background-color: #2aadb5;
-} 
-
-#gallery {
-    background-color: #2aadb5;
-} 
-
-#socials {
-    background-color: #335b6d;
-} 
-*/
   
 .topnav {
     overflow: hidden;
@@ -91,12 +65,6 @@ h2:hover, h3:hover {
 .topnav a:hover {
     color: var(--highlight);
 }
-  
-  /*
-  .topnav a.active {
-    color: #85e0ab;
-  }
-  */
 
 .topnav .icon {
     display: none;
@@ -174,10 +142,6 @@ h2:hover, h3:hover {
     line-height:40px;
     display:inline-block;
     text-align:center;
-    /*
-    border-radius:50%;
-    border:1px solid #fff;
-    */
     margin:0 8px;
     color:inherit;
     opacity:0.75;
@@ -220,12 +184,6 @@ ion-icon {
     animation: ticker-lr 48s linear infinite;
 }
 
-/*
-.sliding-background-1:hover, .sliding-background-2:hover {
-    animation-play-state: paused;
-}
-*/
-
 .sliding-background-1 img, .sliding-background-2 img {
     width: 16rem; 
     height: 16rem;
@@ -237,11 +195,6 @@ ion-icon {
 .sliding-background-2 img {
     margin-bottom: 2rem;
 }
-
-
-
-
-  
 
 @keyframes ticker-rl {
     0% {
@@ -263,26 +216,6 @@ ion-icon {
     }
 }
 
-
-
-
-/*.container {
-  background: #232931;
-  width: 540px;
-  height: 500px;
-  margin: 0 auto;
-  position: relative;
-  margin-top: 10%;
-  box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
-}
-*/
-/*
-.rightbox {
-  padding: 0em 34rem 0em 0em;
-  height: 100%;
-}
-*/
-
 .container {
   display: flex;
   justify-content: center;
@@ -294,7 +227,6 @@ ion-icon {
   width: 90%;
   margin: auto;
   display: block;
-  /*position: relative;*/
 }
 
 .rb-container ul.rb {
@@ -306,7 +238,6 @@ ion-icon {
 .rb-container ul.rb li {
   list-style: none;
   margin: auto;
-  /*margin-left: 10em;*/
   min-height: 50px;
   border-left: 1px dashed #fff;
   padding: 0 0 50px 30px;
@@ -375,7 +306,6 @@ ul.rb li .timestamp {
   
     border-radius: 15px;
     background: #000;
-    /*box-shadow: 5px 5px 15px var(--highlight);*/
     font-family: var(--bodyFont);
     text-align: center;
 
