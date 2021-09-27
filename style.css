@@ -61,6 +61,10 @@ h2:hover, h3:hover {
     font-style: var(--titleStyle);
     text-transform: uppercase;
 }
+
+#iconLink {
+    padding: 39px 16px 29px 16px;
+}
   
 .topnav a:hover {
     color: var(--highlight);
