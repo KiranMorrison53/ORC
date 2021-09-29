@@ -4,7 +4,7 @@ html {
 
 :root {
     /* 18rem multiplied by number of images/2 */
-    --ticker-width: calc(15 * 18rem);
+    --ticker-width: calc(14 * 18rem);
     --highlight: #85e0ab;
     --titleFont:'Roboto Mono', monospace;
     --bodyFont: 'Roboto Mono', monospace;
