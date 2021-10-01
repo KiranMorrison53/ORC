@@ -1,5 +1,6 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Oct 10, 2021 12:00:00").getTime();
+// month indexed from 0, confusing I know
+var countDownDate = new Date(Date.UTC(2021, 9, 10, 21, 0, 0)).getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -16,7 +17,7 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
+  // Display the result in the element with id="countdown"
   document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
