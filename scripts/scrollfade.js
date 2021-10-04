@@ -27,7 +27,7 @@ function scrollFade() {
   }
 }
 
-document.getElementById("parallax").addEventListener('scroll', scrollFade);
+window.addEventListener('scroll', scrollFade);;
 window.addEventListener('resize', scrollFade);
 document.addEventListener('DOMContentLoaded', function() {
   scrollFade();
