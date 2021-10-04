@@ -406,3 +406,7 @@ ul.roadmap li .event-title {
   .scrollFade--animate {
     transition: opacity 0.4s ease-in-out;
   }
+
+  ul.FAQ-questions li:hover h3 {
+    color: var(--highlight);
+  }
